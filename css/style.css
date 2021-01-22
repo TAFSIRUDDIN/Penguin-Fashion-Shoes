@@ -111,21 +111,30 @@ span{
 
 
 
-.home-1{
-    display: none;
-}
+
 
 
 /* Media query */
-    @media only screen and (min-width: 765px) {
-        .home-2{
-            display: none;
-        }
-        .home-1{
-            display: block;
-        }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 13px;
     }
+  }
   
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    p {
+        font-size: 13px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    p {
+        font-size: 13px;
+    }
+  } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 375px) {
@@ -142,7 +151,6 @@ span{
     .footer-2{
         display: none;
     }
-
   }
   .social-media img{
       width: 50px;
@@ -162,7 +170,7 @@ span{
 		
 	}
 	50%{
-	background-color:#3D4FF3;
+	background-color:#A4BC46;
 		
 	}
 	
